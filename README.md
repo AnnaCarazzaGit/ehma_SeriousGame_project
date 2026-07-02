@@ -57,4 +57,10 @@ The project uses the **"Ninja Adventure - Asset Pack"** graphics asset pack (fol
 
 ## Notes
 
+## Notes
+
 - The existing `.gitignore` is already set up correctly for Unity (ignores `Library/`, `Temp/`, `Obj/`, `Build/`, `Logs/`, `UserSettings/`, etc.). Only the `.DS_Store` (macOS) line was added, since that file had been tracked by mistake.
+
+## Gameplay video
+
+A full gameplay video is available in [`assets/VIDEO-2025-12-14-20-04-26.mp4`](./assets/VIDEO-2025-12-14-20-04-26.mp4).
