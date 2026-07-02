@@ -55,12 +55,6 @@ Detailed requirements (Unity version, UPM packages, modules) are listed in `requ
 
 The project uses the **"Ninja Adventure - Asset Pack"** graphics asset pack (folder `Assets/componenti_gioco/pezzi labirinto/Ninja Adventure - Asset Pack/`) and the **TextMesh Pro** package. Check their respective licenses before publishing or redistributing the project.
 
-## Notes
-
-## Notes
-
-- The existing `.gitignore` is already set up correctly for Unity (ignores `Library/`, `Temp/`, `Obj/`, `Build/`, `Logs/`, `UserSettings/`, etc.). Only the `.DS_Store` (macOS) line was added, since that file had been tracked by mistake.
-
 ## Gameplay video
 
 A full gameplay video is available in [`assets/VIDEO-2025-12-14-20-04-26.mp4`](./assets/VIDEO-2025-12-14-20-04-26.mp4).
