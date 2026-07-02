@@ -1,5 +1,10 @@
 # ehma_SeriousGame_project
 
+<p align="center">
+  <img src="./assets/lost-cover.jpg" width="45%" />
+  <img src="./assets/lost_gameplay.gif" width="45%" />
+</p>
+
 Educational serious game built in Unity: the player navigates a **procedurally generated maze**, trying to reach the exit while dealing with "debuffs" that simulate the effects of certain dependencies (drugs, gambling, internet/alcohol addiction) on movement and judgment.
 
 Built with Unity **6000.2.6f2** (Unity 6).
