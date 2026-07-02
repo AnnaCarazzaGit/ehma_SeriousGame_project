@@ -1,0 +1,55 @@
+# Requirements for ehma_SeriousGame_project
+# This is NOT a Python project: since this is a Unity project, "requirements"
+# here means the editor, version, and packages needed to open and build it.
+
+## Unity Editor
+Unity 6000.2.6f2 (Unity 6)
+- Install via Unity Hub: https://unity.com/download
+- If this exact version is no longer available, use the latest patch of the
+  same release (6000.2.x) or a later Unity 6 LTS version.
+
+## Recommended Editor modules (from Unity Hub during installation)
+- Build support module for your target platform (e.g. Windows Build Support / Mac Build Support)
+- Documentation (optional)
+
+## Unity Package Manager packages (from Packages/manifest.json)
+com.unity.2d.animation            12.0.2
+com.unity.2d.aseprite              2.0.2
+com.unity.2d.psdimporter          11.0.1
+com.unity.2d.sprite                1.0.0
+com.unity.2d.spriteshape          12.0.1
+com.unity.2d.tilemap               1.0.0
+com.unity.2d.tilemap.extras        5.0.1
+com.unity.cinemachine              3.1.5
+com.unity.collab-proxy            2.10.0
+com.unity.feature.2d               2.0.1
+com.unity.ide.rider               3.0.38
+com.unity.ide.visualstudio        2.0.25
+com.unity.inputsystem              1.14.2
+com.unity.multiplayer.center       1.0.0
+com.unity.render-pipelines.universal 17.2.0
+com.unity.test-framework           1.6.0
+com.unity.timeline                 1.8.9
+com.unity.ugui                     2.0.0
+com.unity.visualscripting          1.9.8
+
+# Built-in Unity modules (installed together with the editor, no manual action needed)
+com.unity.modules.accessibility, ai, androidjni, animation, assetbundle, audio,
+cloth, director, imageconversion, imgui, jsonserialize, particlesystem, physics,
+physics2d, screencapture, terrain, terrainphysics, tilemap, ui, uielements, umbra,
+unityanalytics, unitywebrequest, unitywebrequestassetbundle, unitywebrequestaudio,
+unitywebrequesttexture, unitywebrequestwww, vehicles, video, vr, wind, xr
+
+## Installation
+1. Install Unity Hub.
+2. Through Unity Hub, install Unity editor version 6000.2.6f2.
+3. In Unity Hub: Add → select the `unityProject/` folder.
+4. Open the project: Unity automatically resolves all the packages listed
+   above by reading `Packages/manifest.json` — no manual installation needed.
+
+## Third-party assets included in the project
+- "Ninja Adventure - Asset Pack" (character sprites, enemies, environments)
+- TextMesh Pro (bundled/managed by Unity itself via TMP Essential Resources,
+  prompted on first import if not already present)
+
+Check the usage licenses for these assets before publishing the project.
