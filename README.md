@@ -2,7 +2,6 @@
 
 <p align="center">
   <img src="./assets/9372d1ad-9247-42f8-bb27-e46cd82a0dbd.JPG" width="45%" />
-  <img src="./assets/lost_gameplay.gif" width="45%" />
 </p>
 
 Educational serious game built in Unity: the player navigates a **procedurally generated maze**, trying to reach the exit while dealing with "debuffs" that simulate the effects of certain dependencies (drugs, gambling, internet/alcohol addiction) on movement and judgment.
@@ -10,6 +9,10 @@ Educational serious game built in Unity: the player navigates a **procedurally g
 Built with Unity **6000.2.6f2** (Unity 6).
 
 ## Game concept
+
+<p align="center">
+  <img src="./assets/lost_gameplay.gif" width="45%" />
+</p>
 
 - The player moves through a maze (`Maze.cs`, `Grid.cs`, `GridProbability.cs`) generated with configurable probabilities, looking for portals/exits (`PortalManager.cs`, `PortalTeleporter.cs`, `ExitGateTrigger.cs`).
 - A **dependency system** (`Dependency/DependencyManager.cs`, `Dependency/DifficultyManager.cs`) periodically applies debuffs to the player based on the active dependency type (Drugs, Gambling, Internet — modeled as a `[Flags] enum DependencyType`).
