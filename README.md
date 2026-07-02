@@ -1,7 +1,7 @@
 # ehma_SeriousGame_project
 
 <p align="center">
-  <img src="./assets/lost-cover.jpg" width="45%" />
+  <img src="./assets/9372d1ad-9247-42f8-bb27-e46cd82a0dbd.jpg" width="45%" />
   <img src="./assets/lost_gameplay.gif" width="45%" />
 </p>
 
