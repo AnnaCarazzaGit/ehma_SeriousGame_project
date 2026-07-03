@@ -64,6 +64,32 @@ The analysis is contained in the `personas_analysis/` folder and includes a Jupy
 
 The original dataset is not included in the repository because it may contain sensitive questionnaire data.
 
+## Screenshots and analysis outputs
+
+### Game interface
+
+The Unity project includes a 2D serious game environment designed to simulate addiction-related consequences through gameplay mechanics, visual effects, and progressive difficulty changes.
+
+### Persona analysis
+
+The repository also includes questionnaire-based persona analysis outputs used to support the user-centered design of the serious game.
+
+<p align="center">
+  <img src="docs/images/persona_correlation_heatmap.png" width="700" alt="Persona analysis correlation heatmap">
+</p>
+
+<p align="center">
+  <img src="docs/images/clustering_elbow_and_pca.png" width="700" alt="Clustering and PCA analysis">
+</p>
+
+<p align="center">
+  <img src="docs/images/clustering_validation_metrics.png" width="700" alt="Clustering validation metrics">
+</p>
+
+<p align="center">
+  <img src="docs/images/persona_profiles_summary.png" width="700" alt="Persona profiles summary">
+</p>
+
 ## Requirements and installation
 
 Detailed requirements (Unity version, UPM packages, modules) are listed in `requirements.txt`.
