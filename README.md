@@ -53,7 +53,7 @@ ehma_SeriousGame_project/
 
 The `unityProject/` folder contains the Unity implementation of the 2D serious game.
 
-The `personas_analysis/` folder contains the questionnaire-based persona analysis used to support the user-centered design of the game. The dataset required to run the notebook is not included in the repository because it may contain sensitive questionnaire data.
+The `personas_analysis/` folder contains the questionnaire-based persona analysis used to support the user-centered design of the game.
 
 
 ## Persona Analysis
