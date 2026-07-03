@@ -75,3 +75,14 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 .DS_Store
+
+# Personas analysis - local/sensitive data
+personas_analysis/dataset_project_eHealth20252026.csv
+
+# Jupyter temporary files
+personas_analysis/.ipynb_checkpoints/
+
+# Optional analysis outputs
+personas_analysis/outputs/
+personas_analysis/results/
+personas_analysis/figures/
