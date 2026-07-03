@@ -24,22 +24,45 @@ Built with Unity **6000.2.6f2** (Unity 6).
 
 ## Project structure
 
-```
+```text
 ehma_SeriousGame_project/
-└── unityProject/
-    ├── Assets/
-    │   ├── Scripts/              # Game logic (C#)
-    │   │   ├── script player/    # Player movement and movement strategies
-    │   │   ├── script NPC/       # Non-player character interactions
-    │   │   ├── script_Menu/      # Main menu and character selection
-    │   │   ├── Dependency/       # Dependency and difficulty system
-    │   │   └── Ending/           # End-game screens and events
-    │   ├── Scenes/                # SampleScene, MenuScene, EndScene
-    │   ├── componenti_gioco/      # Custom sprites and graphical elements (gems, maze pieces)
-    │   └── TextMesh Pro/          # Third-party asset for in-game text
-    ├── Packages/                  # Unity Package Manager dependencies (see requirements.txt)
-    └── ProjectSettings/
+├── unityProject/
+│   ├── Assets/
+│   │   ├── Scripts/              # Game logic (C#)
+│   │   │   ├── script player/    # Player movement and movement strategies
+│   │   │   ├── script NPC/       # Non-player character interactions
+│   │   │   ├── script_Menu/      # Main menu and character selection
+│   │   │   ├── Dependency/       # Dependency and difficulty system
+│   │   │   └── Ending/           # End-game screens and events
+│   │   ├── Scenes/               # SampleScene, MenuScene, EndScene
+│   │   ├── componenti_gioco/     # Custom sprites and graphical elements
+│   │   └── TextMesh Pro/         # Third-party asset for in-game text
+│   ├── Packages/                 # Unity Package Manager dependencies
+│   └── ProjectSettings/          # Unity project configuration
+│
+├── personas_analysis/
+│   ├── EHealthGroup10Personas.ipynb
+│   ├── questionnaire_codebook_eHealth20252026.xlsx
+│   └── README.md
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+└── .gitattributes
 ```
+
+The `unityProject/` folder contains the Unity implementation of the 2D serious game.
+
+The `personas_analysis/` folder contains the questionnaire-based persona analysis used to support the user-centered design of the game. The dataset required to run the notebook is not included in the repository because it may contain sensitive questionnaire data.
+
+
+## Persona Analysis
+
+In addition to the Unity serious game implementation, this repository includes a questionnaire-based persona analysis used to support the user-centered design of the game.
+
+The analysis is contained in the `personas_analysis/` folder and includes a Jupyter Notebook and the related questionnaire codebook. The workflow was used to identify representative user profiles from eHealth questionnaire data and to inform design choices such as addiction-related mechanics, educational framing, difficulty balancing, and content adaptation.
+
+The original dataset is not included in the repository because it may contain sensitive questionnaire data.
 
 ## Requirements and installation
 
